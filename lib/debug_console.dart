@@ -327,7 +327,7 @@ class _DebugConsoleState extends State<DebugConsole> {
             : ListView.builder(
               padding: const EdgeInsets.only(bottom: 75),
               reverse: true,
-              physics: const AllwaysScrollableFixedPositionScrollPhysics(),
+              //physics: const AllwaysScrollableFixedPositionScrollPhysics(),
               itemCount: filteredLogs.length,
               itemBuilder: (context, index) {
                 final log = filteredLogs[index];
