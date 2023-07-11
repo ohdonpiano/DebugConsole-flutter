@@ -1,4 +1,4 @@
-import 'package:camera/camera.dart';
+//import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:debug_console/debug_console.dart';
 
@@ -24,7 +24,7 @@ void main() {
       await Future.delayed(const Duration(milliseconds: 1500));
       DebugConsole.error('Error message, with StackTrace', stackTrace: StackTrace.current);
       await Future.delayed(const Duration(milliseconds: 1500));
-      availableCameras().then((cameras) => CameraController(cameras.first, ResolutionPreset.medium));
+      //availableCameras().then((cameras) => CameraController(cameras.first, ResolutionPreset.medium));
     });
   });
 }
