@@ -44,7 +44,7 @@ class _DebugConsoleTileState extends State<DebugConsoleTile> {
             ),
             header: ListTile(
               textColor: widget.log.level.color,
-              title: Text(
+              title: SelectableText(
                 widget.log.message,
                 style: Theme.of(context)
                     .textTheme
